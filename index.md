@@ -25,3 +25,9 @@ ASIC engineer by day, hobbyist programmer otherwise.
 ### General
 
 * WiT - Waveform in Text - show digital waveforms in ASCII art
+
+## Get in touch
+<center>
+<b>[Twitter](http://twitter.com/narendra_m_a)</b> | <b>[LinkedIn](http://in.linkedin.com/in/narendrama)</b> |
+<b>[Ello](http://ello.co/nma83)</b>
+</center>
