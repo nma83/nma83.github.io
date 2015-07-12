@@ -13,7 +13,7 @@ ASIC engineer by day, hobbyist programmer otherwise.
 * [StorageTrac](/SDCardTrac) - track storage usage
 
 ### Emacs
-* [org-autname](https://github.com/nma83/org-autonum) - automatic section numbering in [org-mode](http://orgmode.org).
+* [org-autonum](https://github.com/nma83/org-autonum) - automatic section numbering in [org-mode](http://orgmode.org).
 
 ## What I would like to do
 
