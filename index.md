@@ -20,10 +20,11 @@ ASIC engineer by day, hobbyist programmer otherwise.
 ### Android
 
 * cLoc - inspired by the [Weasley clock](http://harrypotter.wikia.com/wiki/Weasley_Clock) in the Harry Potter books, an app that shows locations of people in a clock-face
+* Recite-the-Recipe - Convert recipe instructions into a timeline with actions (add ingredient, wait N minutes, stir...) using NLP, and automatically time all the steps instead of the user manually stepping through the recipe
 
 ### Tools
 
-* WiT - Waveform in Text - show digital waveforms in ASCII art
+* WiT - Waveform in Text - show digital waveforms in ASCII art, want to write in Nim and use the ncurses-CDK library
 
 ## Get in touch
 <center>
