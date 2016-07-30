@@ -13,7 +13,7 @@ open-source app for location sharing, I began to explore building this
 idea on top of the Owntracks infrastructure. The result is the
 __Owntracks Waypoint widget__.
 
-![Owntracks Waypoint widget]({{ site.url }}/assets/owntracks_widget.jpg)
+![Owntracks Waypoint widget]({{ site.github.url }}/assets/owntracks_widget.jpg)
 
 # The 'What?'
 
