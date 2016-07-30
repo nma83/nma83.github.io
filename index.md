@@ -12,7 +12,7 @@ ASIC engineer by day, hobbyist programmer otherwise.
 ## Works in progress
 
 ### Android
-* [locCloc](https://github.com/nma83/android) - inspired by the [Weasley clock](http://harrypotter.wikia.com/wiki/Weasley_Clock) in the Harry Potter books, an app that shows locations of people in a clock-face, built on top of [OwnTracks](http://owntracks.org)
+* [Owntracks Waypoint widget](https://github.com/nma83/android) - inspired by the [Weasley clock](http://harrypotter.wikia.com/wiki/Weasley_Clock) in the Harry Potter books, an app that shows locations of people with respect to waypoints, built on top of [OwnTracks](http://owntracks.org)
 * [StorageTrac](/SDCardTrac) - track storage usage
 
 ### Emacs
