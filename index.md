@@ -15,8 +15,12 @@ ASIC engineer by day, hobbyist programmer otherwise.
 * [Owntracks Waypoint widget](https://github.com/nma83/android) - inspired by the [Weasley clock](http://harrypotter.wikia.com/wiki/Weasley_Clock) in the Harry Potter books, an app that shows locations of people with respect to waypoints, built on top of [OwnTracks](http://owntracks.org)
 * [StorageTrac](/SDCardTrac) - track storage usage
 
+### Web
+* An authentication and ACL management web app for the [Mosquitto](https://mosquitto.org) broker, using [Auth0](https://auth0.com) and its Python SDK for the frontend and [mosquitto-auth-plug](https://github.com/jpmens/mosquitto-auth-plug) for the interface to Mosquitto
+* Enhance [Home-assistant](https://home-assistant.io) zone plugin to capture waypoint list published from [OwnTracks](http://owntracks.org)
+
 ### Emacs
-* [org-autonum](https://github.com/nma83/org-autonum) - automatic section numbering in [org-mode](http://orgmode.org).
+* [org-autonum](https://github.com/nma83/org-autonum) - automatic section numbering in [org-mode](http://orgmode.org)
 
 ## What I would like to do
 
