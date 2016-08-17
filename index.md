@@ -6,7 +6,7 @@ layout: page
 
 # Narendra Acharya
 {:center}
-ASIC engineer by day, hobbyist programmer otherwise.
+ASIC engineer for profit, hobbyist programmer for fun.
 {:center}
 
 ## Works in progress
@@ -16,7 +16,7 @@ ASIC engineer by day, hobbyist programmer otherwise.
 * [StorageTrac](/SDCardTrac) - track storage usage
 
 ### Web
-* An authentication and ACL management web app for the [Mosquitto](https://mosquitto.org) broker, using [Auth0](https://auth0.com) and its Python SDK for the frontend and [mosquitto-auth-plug](https://github.com/jpmens/mosquitto-auth-plug) for the interface to Mosquitto
+* An authentication and ACL management web app for the [Mosquitto](https://mosquitto.org) broker, using OpenID and [mosquitto-auth-plug](https://github.com/jpmens/mosquitto-auth-plug)
 * Enhance [Home-assistant](https://home-assistant.io) zone plugin to capture waypoint list published from [OwnTracks](http://owntracks.org)
 
 ### Emacs
