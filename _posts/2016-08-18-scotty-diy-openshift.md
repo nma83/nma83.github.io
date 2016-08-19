@@ -5,7 +5,7 @@ title: Running a Scotty web-app in Openshift
 
 This post talks about running a web-app written in Haskell using the
 [Scotty](https://github.com/scotty-web/scotty) framework, on
-[Openshift](openshift.redhat.com) servers.
+[Openshift](https://openshift.redhat.com) servers.
 
 # Create the Openshift app
 
