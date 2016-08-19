@@ -35,7 +35,7 @@ Let us tell Stack to store the binary in a place which is easily accessible. Edi
 
 This will store the statically linked executable binary in the `bin` sub-directory of the app. The directory should be created before building the app.
 
-Run `stack build` to compile the code and create the executable `./bin/app`. To run the app in Openshift, we can upload this binary as part of the git repo.
+Run `stack install` to compile the code and create the executable `./bin/app`. To run the app in Openshift, we can upload this binary as part of the git repo.
 
 # Run the app on Openshift
 
