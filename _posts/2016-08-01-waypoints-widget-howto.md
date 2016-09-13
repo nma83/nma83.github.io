@@ -48,5 +48,5 @@ Once a location update is received from a Friend who has a set of
 waypoints already shared and exported, the widget will start reporting
 the current status as compared to the waypoints.
 
-![Done](https://github.com/nma83/android/raw/waypoints_widget/src/main/res/drawable-nodpi/appwidget_preview.png)
+![Done](https://github.com/nma83/android/raw/waypoints_widget/project/app/src/main/res/drawable-nodpi/appwidget_preview.png)
 

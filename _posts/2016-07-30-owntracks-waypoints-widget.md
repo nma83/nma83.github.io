@@ -13,7 +13,7 @@ open-source app for location sharing, I began to explore building this
 idea on top of the Owntracks infrastructure. The result is the
 __Owntracks Waypoint widget__.
 
-![Owntracks Waypoint widget](https://github.com/nma83/android/raw/waypoints_widget/src/main/res/drawable-nodpi/appwidget_preview.png)
+![Owntracks Waypoint widget](https://github.com/nma83/android/raw/waypoints_widget/project/app/src/main/res/drawable-nodpi/appwidget_preview.png)
 
 # The 'What?'
 
