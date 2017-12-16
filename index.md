@@ -13,23 +13,25 @@ ASIC engineer for profit, hobbyist programmer for fun.
 
 ### Android
 * [Owntracks Waypoint widget](https://github.com/nma83/android) - inspired by the [Weasley clock](http://harrypotter.wikia.com/wiki/Weasley_Clock) in the Harry Potter books, an app that shows locations of people with respect to waypoints, built on top of [OwnTracks](http://owntracks.org)
-* [StorageTrac](/SDCardTrac) - track storage usage
+* [StorageTrac](/SDCardTrac) - track phone internal storage usage
 
 ### Web
-* An authentication and ACL management web app for the [Mosquitto](https://mosquitto.org) broker, using OpenID and [mosquitto-auth-plug](https://github.com/jpmens/mosquitto-auth-plug)
 * Enhance [Home-assistant](https://home-assistant.io) zone plugin to capture waypoint list published from [OwnTracks](http://owntracks.org)
 
 ### Emacs
+* [diff-actor](https://github.com/nma83/diff-actor) - Act out diff's between files in Emacs
 * [org-autonum](https://github.com/nma83/org-autonum) - automatic section numbering in [org-mode](http://orgmode.org)
 
 ## What I would like to do
 
-### Android
+### Web
+* Photo (stored on Google/Facebook) flashbacks based on Hindu calendar events
+* An authentication and ACL management web app for the [Mosquitto](https://mosquitto.org) broker, using OpenID and [mosquitto-auth-plug](https://github.com/jpmens/mosquitto-auth-plug)
 
+### Android
 * Recite-the-Recipe - Convert recipe instructions into a timeline with actions (add ingredient, wait N minutes, stir...) using NLP, and automatically time all the steps instead of the user manually stepping through the recipe
 
 ### Tools
-
 * WiT - Waveform in Text - show digital waveforms in ASCII art, want to write in Haskell using ncurses bindings
 
 ## Posts
