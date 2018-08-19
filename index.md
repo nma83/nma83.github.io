@@ -9,7 +9,10 @@ layout: page
 ASIC engineer for profit, hobbyist programmer for fun.
 {:center}
 
-## Works in progress
+## My projects
+
+### Desktop
+* Enhance face detection in [shotwell](https://gitlab.gnome.org/GNOME/shotwell) and add face recognition using DNN
 
 ### Android
 * [Owntracks Waypoint widget](https://github.com/nma83/android) - inspired by the [Weasley clock](http://harrypotter.wikia.com/wiki/Weasley_Clock) in the Harry Potter books, an app that shows locations of people with respect to waypoints, built on top of [OwnTracks](http://owntracks.org)
@@ -29,7 +32,7 @@ ASIC engineer for profit, hobbyist programmer for fun.
 * An authentication and ACL management web app for the [Mosquitto](https://mosquitto.org) broker, using OpenID and [mosquitto-auth-plug](https://github.com/jpmens/mosquitto-auth-plug)
 
 ### Android
-* Recite-the-Recipe - Convert recipe instructions into a timeline with actions (add ingredient, wait N minutes, stir...) using NLP, and automatically time all the steps instead of the user manually stepping through the recipe
+* Encourage kids to hand-write code on paper that can then be scanned by an app to execute on device
 
 ### Tools
 * WiT - Waveform in Text - show digital waveforms in ASCII art, want to write in Haskell using ncurses bindings

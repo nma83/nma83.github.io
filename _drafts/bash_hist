@@ -1,0 +1,432 @@
+groups
+mkdir certbot
+cd certbot/
+wget https://dl.eff.org/certbot-auto
+chmod +x certbot-auto 
+./certbot-auto certonly --standalone                           --standalone-supported-challenges http-01                           --email your@email.address \
+./certbot-auto certonly --standalone                           --standalone-supported-challenges http-01                           --email nma83@github.com -d nma83.duckdns.org 
+ls
+pwd
+mkdir bin
+echo ed542592-e51a-488f-99c2-89f7bd05e28c > bin/duckdns.sh
+vim bin/duckdns.sh 
+chmod a+x bin/duckdns.sh 
+chmod 700 bin/duckdns.sh 
+./bin/duckdns.sh 
+vim ./bin/duckdns.sh
+./bin/duckdns.sh 
+vim ./bin/duckdns.sh
+cat bin/duckdns.sh 
+curk -k -K https://www.duckdns.org/update?domains=nma83&token=ed542592-e51a-488f-99c2-89f7bd05e28c&ip=
+curl -k -K "https://www.duckdns.org/update?domains=nma83&token=ed542592-e51a-488f-99c2-89f7bd05e28c&ip="
+curl -k -K 'https://www.duckdns.org/update?domains=nma83&token=ed542592-e51a-488f-99c2-89f7bd05e28c&ip='
+curl -k 'https://www.duckdns.org/update?domains=nma83&token=ed542592-e51a-488f-99c2-89f7bd05e28c&ip='
+hass --open-ui
+df -h .
+pwd
+df -h .
+ls
+sudo aptitude search '!?essential'
+sudo aptitude search '!?essential' > noness
+less noness 
+df -h .
+./certbot-auto certonly --standalone                           --standalone-supported-challenges http-01                           --email nma83@github.com -d nma83.duckdns.org
+certbot/certbot-auto certonly --standalone                           --standalone-supported-challenges http-01                           --email nma83@github.com -d nma83.duckdns.org
+crontab -e
+ls
+ls -a
+ls .homeassistant/
+vim .homeassistant/configuration.yaml 
+fg
+hass --help
+hass --daemon
+ls -l /etc/letsencrypt/live/nma83.duckdns.org/
+sudo ls -l /etc/letsencrypt/live/nma83.duckdns.org/
+sudo chown -R homa /etc/letsencrypt
+sudo ls -l /etc/letsencrypt/live/nma83.duckdns.org/
+ls -l /etc/letsencrypt/live/nma83.duckdns.org/
+pgrep home
+pgrep hass
+pkill hass
+hass
+vim .homeassistant/configuration.yaml 
+hass
+wget http://repo.mosquitto.org/debian/mosquitto-repo.gpg.key
+sudo apt-key add mosquitto-repo.gpg.key
+cd /etc/apt/sources.list.d/
+sudo wget http://repo.mosquitto.org/debian/mosquitto-jessie.list
+cd -
+apt-get update
+sudo apt-get update
+cd /etc/apt/sources.list.d/
+ls
+udo rm mosquitto-jessie.list 
+at mosquitto-jessie.list 
+ls
+cat mosquitto-jessie.list
+sudo rm mosquitto-jessie.list
+apt-cache search mosquitto
+sudo apt-get install mosquitto-clients
+git
+cd
+ls
+mkdir owntracks
+git clone https://github.com/owntracks/tools.git
+df -h
+ls
+sudo apt-get install mosquitto
+man mosquitto
+cd owntracks/
+ls
+cd ..
+ls
+mv tools/ owntracks/
+cd owntracks/
+ls
+./tools/mosquitto-setup.sh 
+sudo ./tools/mosquitto-setup.sh 
+less /etc/mosquitto/conf.d//mosquitto.conf
+sudo less /etc/mosquitto/conf.d//mosquitto.conf
+sudo mosquitto
+pgrep hass
+netstat
+netstat | grep 1883
+sudo less /etc/mosquitto/conf.d//mosquitto.conf
+sudo vim /etc/mosquitto/conf.d//mosquitto.conf
+sudo mosquitto
+sudo vim /etc/mosquitto/conf.d/mosquitto.conf
+man mosquitto
+less /etc/mosquitto/mosquitto.conf
+man mosquitto
+man mosquitto.conf
+less /etc/mosquitto/mosquitto.conf
+less /var/log/mosquitto/mosquitto.log
+lsof -i TCP:1883 
+pgrep mos
+pgrep -l mos
+ls -l /etc/init.d/mosquitto 
+date
+sudo service mosquitto restart
+sudo service mosquitto status
+date
+man tzselect 
+sudo tzselec
+sudo tzselect
+lsof -i TCP:1883 
+sudo lsof -i TCP:1883 
+sudo lsof -i UDP:1883 
+cd ..
+vim .homeassistant/configuration.yaml 
+ls /etc/letsencrypt/live/nma83.duckdns.org/
+fg
+sudo less /etc/mosquitto/conf.d//mosquitto.conf
+fg
+ls /etc/mosquitto/conf.d/
+vim .homeassistant/configuration.yaml 
+ls /etc/mosquitto/conf.d/server.crt
+sudo less /etc/mosquitto/conf.d//mosquitto.conf
+ls
+sudo vim /etc/mosquitto/conf.d/mosquitto.conf 
+ls -ltr /etc/mosquitto/conf.d/
+date
+file /etc/mosquitto/conf.d/pine64.crt 
+file /etc/mosquitto/conf.d/pine64.csr 
+cat /etc/mosquitto/conf.d/pine64.csr 
+sudo service mosquitto restart
+sudo service mosquitto status
+pgrep mosq
+pgrep mos
+less /var/log/mosquitto/mosquitto.log 
+ls -l /etc/mosquitto/conf.d/server.crt
+sudo ls -l /etc/mosquitto/conf.d/server.crt
+sudo ls -l /etc/mosquitto/conf.d/
+sudo vim /etc/mosquitto/conf.d/mosquitto.conf 
+sudo service mosquitto restart
+less /var/log/mosquitto/mosquitto.log 
+ls /etc/mosquitto/conf.d/pine64.key
+ls -l /etc/mosquitto/conf.d/pine64.key
+less /var/log/mosquitto/mosquitto.log 
+cat /etc/mosquitto/conf.d/pine64.key
+sudo cat /etc/mosquitto/conf.d/pine64.key
+less /var/log/mosquitto/mosquitto.log 
+users
+less /etc/passwd
+sudo chown mosquitto:root /etc/mosquitto/conf.d/pine64.key
+ls -l /etc/mosquitto/conf.d/pine64.key
+sudo service mosquitto restart
+less /var/log/mosquitto/mosquitto.log 
+date
+less /var/log/mosquitto/mosquitto.log 
+sudo service mosquitto status
+pgrep mo
+pgrep -l mos
+sudo lsof -i UDP:1883 
+sudo lsof -i TCP:1883 
+less /etc/mosquitto/conf.d/mosquitto.conf 
+sudo less /etc/mosquitto/conf.d/mosquitto.conf 
+sudo lsof -i TCP:8883 
+vim .homeassistant/configuration.yaml 
+man mosquitto.conf 
+mosquitto_passwd 
+mosquitto_passwd -c
+less /etc/mosquitto/certs/README 
+sudo mv /etc/mosquitto/conf.d/ca.* /etc/mosquitto/ca_certificates/
+sudo mv /etc/mosquitto/conf.d/pine64.* /etc/mosquitto/certs/
+sudo vim /etc/mosquitto/conf.d/mosquitto.conf 
+fg
+jobs
+fg
+sudo vim /etc/mosquitto/conf.d/mosquitto.conf 
+sudo service mosquitto restart
+sudo service mosquitto status
+man mosquitto_passwd 
+sudo mosquitto_passwd /etc/mosquitto/passwd
+sudo mosquitto_passwd /etc/mosquitto/passwd homa
+sudo mosquitto_passwd -c /etc/mosquitto/passwd homa
+man mosquitto_passwd 
+df -h .
+vim .homeassistant/configuration.yaml 
+sudo mosquitto_passwd -c /etc/mosquitto/passwd naren
+sudo mosquitto_passwd -c /etc/mosquitto/passwd shilpa
+sudo mosquitto_passwd -c /etc/mosquitto/passwd mom
+sudo mosquitto_passwd -c /etc/mosquitto/passwd tst
+man mosquitto.conf
+sudo vim /etc/mosquitto/conf.d/mosquitto.conf 
+man mosquitto.conf
+hass --daemon
+pgrep hass
+pgrep -lhass
+pkill hass
+hass
+vim .homeassistant/configuration.yaml 
+less owntracks/tools/mosquitto-setup.sh 
+less owntracks/tools/TLS/generate-CA.sh 
+sudo cat /etc/mosquitto/ca_certificates/ca.crt 
+pgrep mosq
+sudo service mosquitto status
+less /var/log/mosquitto/mosquitto.log 
+man mosquitto_con
+man mosquitto.conf
+less /etc/mosquitto/conf.d/mosquitto.conf 
+sudo less /etc/mosquitto/conf.d/mosquitto.conf 
+sudo vim /etc/mosquitto/conf.d/mosquitto.conf 
+man mosquitto.conf
+fg
+sudo vim /etc/mosquitto/acl
+man mosquitto.conf
+sudo vim /etc/mosquitto/acl
+man mosquitto.conf
+sudo vim /etc/mosquitto/acl
+sudo cat /etc/mosquitto/passwd 
+mosquitto_passwd 
+man mosquitto_passwd 
+sudo mosquitto_passwd -U /etc/mosquitto/passwd naren
+sudo cat /etc/mosquitto/passwd 
+sudo mosquitto_passwd -U /etc/mosquitto/passwd shilpa
+sudo mosquitto_passwd -U /etc/mosquitto/passwd mom
+sudo cat /etc/mosquitto/passwd 
+sudo vim /etc/mosquitto/acl
+sudo service mosquitto restart
+sudo service mosquitto status
+less /var/log/mosquitto/mosquitto.log 
+pgrep mosq
+openssl x509 -noout -subject -in 
+openssl x509 -noout -subject -in /etc/mosquitto/certs/pine64.crt 
+cd owntracks/
+less ./tools/TLS/generate-CA.sh 
+export IPLIST='192.168.1.30 127.0.0.1'
+less ./tools/TLS/generate-CA.sh 
+export HOSTLIST='nma83.duckdns.org'
+less ./tools/TLS/generate-CA.sh 
+cd ..
+cd -
+vim ~/.homeassistant/configuration.yaml 
+ls /etc/mosquitto/ca_certificates/ca.crt 
+vim ~/.homeassistant/configuration.yaml 
+pgrep hass
+hass
+vim ~/.homeassistant/configuration.yaml 
+hass
+pgrep hass
+hass
+sudo mosquitto_passwd -U /etc/mosquitto/passwd homa
+vim ~/.homeassistant/configuration.yaml 
+hass
+sudo cat /etc/mosquitto/passwd 
+sudo service mosquitto restart
+hass
+sudo vim /etc/mosquitto/acl 
+sudo service mosquitto restart
+sudo apt-get install mutt
+sudo apt-get install lynx
+lynx 
+man lynx
+lynx mail.yahoo.com
+cd ..
+less .homeassistant/configuration.yaml 
+lynx gmail.com
+sudo apt-get install mutt
+man muttrc
+vim .muttrc
+mutt
+vim .muttrc
+mutt
+man sendmail
+sendmail
+/usr/sbin/sendmail 
+sendmail
+man sendmail
+/usr/sbin/sendmail -i shilpa.herle@gmail.com,narendra_m_a@yahoo.com
+man mailq 
+man sendmail
+cat .homeassistant/configuration.yaml 
+less /var/log/mosquitto/mosquitto.log 
+hass
+vim .homeassistant/configuration.yaml 
+hass
+vim .homeassistant/configuration.yaml 
+hass
+vim .homeassistant/configuration.yaml 
+hass
+hass --daemon
+mail
+ls -ltr /etc/letsencrypt/live/nma83.duckdns.org/
+ls -ltr /etc/letsencrypt/archive/nma83.duckdns.org/
+pkill hass
+vim .homeassistant/configuration.yaml 
+sudo vim /etc/mosquitto/conf.d/mosquitto.conf 
+ls /etc/letsencrypt/live/nma83.duckdns.org/fullchain.pem
+sudo vim /etc/mosquitto/conf.d/mosquitto.conf 
+pgrep hass
+sudo service mosquitto restart
+sudo service mosquitto status
+less /var/log/mosquitto/mosquitto.log 
+ls /etc/letsencrypt/live/nma83.duckdns.org/fullchain.pem
+ls -l /etc/letsencrypt/live/nma83.duckdns.org/fullchain.pem
+car /etc/letsencrypt/live/nma83.duckdns.org/fullchain.pem
+cat /etc/letsencrypt/live/nma83.duckdns.org/fullchain.pem
+cat /etc/letsencrypt/live/nma83.duckdns.org/chain.pem 
+sudo vim /etc/mosquitto/conf.d/mosquitto.conf 
+sudo service mosquitto restart
+sudo service mosquitto status
+less /var/log/mosquitto/mosquitto.log 
+ls -l /etc/letsencrypt/live/nma83.duckdns.org/chain.pem 
+groups 
+sudo shutdown -h now
+free -m
+df -h
+ls
+ls /
+ls ../debian/
+wget https://github.com/longsleep/build-pine64-image/raw/master/simpleimage/platform-scripts/resize_rootfs.sh
+chmod +x resize_rootfs.sh 
+mv resize_rootfs.sh bin/
+sudo bin/resize_rootfs.sh 
+df -h
+sudo groupadd cloud
+sudo gpasswd -a homa cloud
+sudo gpasswd -a mosquitto cloud
+sudo chown -R homa:cloud /etc/letsencrypt/live/nma83.duckdns.org/
+ls -l /etc/letsencrypt/live/nma83.duckdns.org/
+sudo vim /etc/mosquitto/conf.d/mosquitto.conf 
+sudo service mosquitto restart
+sudo service mosquitto status
+less /var/log/mosquitto/mosquitto.log 
+ls /etc/letsencrypt/live/nma83.duckdns.org/chain.pem
+reboot
+sudo reboot
+ls -l /etc/letsencrypt/live/nma83.duckdns.org/chain.pem
+ls -l /etc/letsencrypt/archive/nma83.duckdns.org/
+sudo chown -R homa:cloud /etc/letsencrypt/
+ls -l /etc/letsencrypt/archive/nma83.duckdns.org/
+sudo service mosquitto status
+less /var/log/mosquitto/mosquitto.log 
+sudo service mosquitto restart
+sudo service mosquitto status
+less /var/log/mosquitto/mosquitto.log 
+sudo chown -R mosquitto:cloud /etc/letsencrypt/
+ls -l /etc/letsencrypt/archive/nma83.duckdns.org/
+groups
+sudo ls -l /etc/letsencrypt/
+sudo chmod -R g+r /etc/letsencrypt/
+ls -l /etc/letsencrypt/archive/nma83.duckdns.org/
+sudo ls -l /etc/letsencrypt/
+sudo chmod -R g+rx /etc/letsencrypt/
+sudo ls -l /etc/letsencrypt/
+ls -l /etc/letsencrypt/archive/nma83.duckdns.org/
+sudo service mosquitto restart
+sudo service mosquitto status
+less /var/log/mosquitto/mosquitto.log 
+vim .homeassistant/configuration.yaml 
+sudo vim /etc/mosquitto/conf.d/mosquitto.conf 
+sudo service mosquitto restart
+sudo service mosquitto status
+hass
+vim .homeassistant/configuration.yaml 
+sudo vim /etc/mosquitto/conf.d/mosquitto.conf 
+vim .homeassistant/configuration.yaml 
+sudo service mosquitto restart
+sudo service mosquitto status
+hass
+openssl x509 -in /etc/letsencrypt/live/nma83.duckdns.org/chain.pem -noout -issuer
+vim /etc/letsencrypt/dst_root.pem
+cat dst_root.pem 
+sudo mv dst_root.pem /etc/letsencrypt/
+sudo cat /etc/letsencrypt/live/nma83.duckdns.org/chain.pem /etc/letsencrypt/dst_root.pem > /etc/letsencrypt/live/nma83.duckdns.org/chain-ca.pem
+sudo "cat /etc/letsencrypt/live/nma83.duckdns.org/chain.pem /etc/letsencrypt/dst_root.pem > /etc/letsencrypt/live/nma83.duckdns.org/chain-ca.pem"
+cat /etc/letsencrypt/live/nma83.duckdns.org/chain.pem /etc/letsencrypt/dst_root.pem 
+sudo sh
+cat /etc/letsencrypt/live/nma83.duckdns.org/chain-ca.pem
+sudo vim /etc/mosquitto/conf.d/mosquitto.conf 
+sudo service mosquitto restart
+sudo service mosquitto status
+vim .homeassistant/configuration.yaml 
+hass
+pgrep hass
+vim .homeassistant/configuration.yaml 
+hass
+vim .homeassistant/configuration.yaml 
+hass
+sudo vim /etc/mosquitto/conf.d/mosquitto.conf 
+vim .homeassistant/configuration.yaml 
+sudo service mosquitto restart
+sudo service mosquitto status
+hass
+vim .homeassistant/configuration.yaml 
+hass
+pgrep systemd
+pgrep -l systemd
+man service
+ps -p 1 -o comm=
+wget https://raw.githubusercontent.com/home-assistant/home-assistant/master/script/home-assistant%40.service
+ls /lib/systemd/
+ls /lib/systemd/system
+sudo mv home-assistant@.service /lib/systemd/system/home-assistant.service
+sudo systemctl --system daemon-reload
+sudo systemctl enable home-assistant
+systemctl status mosquitto.service 
+sudo vim /lib/systemd/system/home-assistant.service 
+sudo systemctl --system daemon-reload
+sudo systemctl enable home-assistant
+sudo systemctl start home-assistant
+sudo systemctl status home-assistant
+journalctl 
+journalctl -xe
+sudo mv /lib/systemd/system/home-assistant.service /lib/systemd/system/home-assistant@homa.service
+sudo systemctl --system daemon-reload
+sudo systemctl enable home-assistant@homa
+sudo systemctl start home-assistant@homa
+sudo systemctl status home-assistant@homa
+sudo journalctl -f -u home-assistant@homa
+which hass
+sudo vim /lib/systemd/system/home-assistant.service 
+sudo vim /lib/systemd/system/home-assistant@homa.service
+sudo systemctl --system daemon-reload
+sudo systemctl start home-assistant@homa
+sudo systemctl status home-assistant@homa
+ls -ltr
+ls -la
+sudo systemctl enable home-assistant@homa
+ls
+ls -a
+less .bash_history 

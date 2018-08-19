@@ -1,0 +1,100 @@
+free -m
+cat /etc/network/interfaces
+ping google.com
+free -m
+df -h
+sudo ifconfig
+route
+sudo route
+free -m
+uname -a
+ping google.com
+cat /etc/network/interfaces
+sudo vim /etc/resolv.conf 
+ping google.com
+sudo vim /etc/resolv.conf 
+ping 8.8.8.8
+sudo vim /etc/resolv.conf 
+route
+sudo route
+sudo ifconfig -a
+netstat -rn
+ping 192.168.1.1
+sudo route add default gw 192.168.1.1
+netstat -rn
+ping 8.8.8.8
+ping google.com
+ip route show
+sudo vim /etc/network/interfaces
+reboot
+sudo reboot
+passwd
+users
+top
+vnc4server &
+less /home/debian/.vnc/pine64:1.log
+chmod a+x /home/debian/.vnc/xstartup:
+chmod a+x /home/debian/.vnc/xstartup
+vnc4server -kill :1
+vnc4server 
+less /home/debian/.vnc/pine64:1.log
+free -m
+man watch
+watch -n 5 free -m
+df -h .
+watch -n 5 free -m
+top
+groups
+sudo useradd -m -g sudo -G video -s /bin/bash homa
+sudo passwd homa
+top
+df -h ,
+df -h .
+cd ..
+ls
+ls -a .pip/
+ls .local/share/
+su - homa
+cd Downloads/
+df -h .
+ls
+mplayer big_buck_bunny_720p_stereo.avi 
+less /var/log/Xorg.0.log
+sudo apt-get upgrade
+df -h .
+pip
+python --version
+sudo apt-get install python3
+sudo apt-get install pip3
+sudo apt-get install python3-pip
+sudo apt-get --purge remove kodi gimp
+sudo apt-get autoremove
+df -h .
+ls
+man mplayer
+mplayer -v big_buck_bunny_720p_stereo.avi 
+pip3 install homeassistant
+sudo pip3 install homeassistant
+hass --open-ui
+ps -ef | grep cron
+su - homa
+sudo usermod -G video homa
+su - homa
+sudo gpasswd -d homa sudo
+su - homa
+curl
+su - homa
+free -m
+top
+pgrep -l clam
+top
+sudo apt-get install mosquitto
+ls /etc/apt/sources.list.d/
+less /etc/apt/sources.list
+sudo apt-get install certbot -t jessie-backports
+sudo apt-get install python-certbot -t jessie-backports
+sudo apt-get install python-acme -t jessie-backports
+sudo apt-get install python-openssl -t jessie-backports
+sudo apt-get install python-cryptography -t jessie-backports
+sudo apt-get install python-cffi -t jessie-backports
+sudo apt-get install python-cffi-backend -t jessie-backports
